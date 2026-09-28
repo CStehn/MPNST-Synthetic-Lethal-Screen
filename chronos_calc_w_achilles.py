@@ -30,6 +30,6 @@ model = chronos.Chronos(
 model.train()
 model.save(wd + "chronos_output_w_achilles")
 gene_effect = model.gene_effect
-gene_effect -= gene_effect.reindex(columns=neg_ctrl).median(axix=1).median()
+gene_effect -= gene_effect.reindex(columns=neg_ctrl).median(axis=1).median()
 
 gene_effect.to_csv(wd + "chronos_scores_w_achilles.csv")
