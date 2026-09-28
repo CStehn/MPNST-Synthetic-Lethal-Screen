@@ -1,0 +1,112 @@
+INFO  @ Sat, 26 Nov 2022 12:33:24: Parameters: /home/largaesp/stehn007/.conda/envs/mageckenv/bin/mageck test -k synthetic_lethal.count.txt -t ipn1L.final -c ipn1L.initial --norm-method median -n ipn1L --control-sgrna broadgpp-brunello-controls.txt --keep-tmp --pdf-report 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Welcome to MAGeCK v0.5.9.2. Command: test 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Loading count table from synthetic_lethal.count.txt  
+INFO  @ Sat, 26 Nov 2022 12:33:24: Processing 1 lines.. 
+DEBUG @ Sat, 26 Nov 2022 12:33:24: Parsing error in line 1 (usually the header line). Skip this line. 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Loaded 77441 records. 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Loading R template file: /home/largaesp/stehn007/.conda/envs/mageckenv/lib/python3.7/site-packages/mageck/plot_template.RTemplate. 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Loading R template file: /home/largaesp/stehn007/.conda/envs/mageckenv/lib/python3.7/site-packages/mageck/plot_template_indvgene.RTemplate. 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Loading Rnw template file: /home/largaesp/stehn007/.conda/envs/mageckenv/lib/python3.7/site-packages/mageck/plot_template.Rnw. 
+DEBUG @ Sat, 26 Nov 2022 12:33:24: Setting up the visualization module... 
+DEBUG @ Sat, 26 Nov 2022 12:33:24: Given sample labels: ipn1L.final 
+DEBUG @ Sat, 26 Nov 2022 12:33:24: Converted index: 3 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Treatment samples:ipn1L.final 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Treatment sample index:3 
+DEBUG @ Sat, 26 Nov 2022 12:33:24: Given sample labels: ipn1L.initial 
+DEBUG @ Sat, 26 Nov 2022 12:33:24: Converted index: 2 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Control samples:ipn1L.initial 
+INFO  @ Sat, 26 Nov 2022 12:33:24: Control sample index:2 
+DEBUG @ Sat, 26 Nov 2022 12:33:24: Initial (total) size factor: 0.9332070442620979 1.0770912622758404 
+DEBUG @ Sat, 26 Nov 2022 12:33:25: Median factor: 0.5340627250688598 1.8879230143542773 
+INFO  @ Sat, 26 Nov 2022 12:33:25: Final size factor: 0.5340627250688598 1.8879230143542773 
+INFO  @ Sat, 26 Nov 2022 12:33:26: Detecting outliers from variance estimation.. Avg read count:[473.7366241430449], Var: [98865878.62452705] 
+INFO  @ Sat, 26 Nov 2022 12:33:26: Skipping 76 sgRNAs from variance calculation because of their extreme high counts (> 4* STD (mean counts) ). 
+DEBUG @ Sat, 26 Nov 2022 12:33:26: Adjusted model: 2.8243714443373027	0 
+INFO  @ Sat, 26 Nov 2022 12:33:27: Before RRA, 102 sgRNAs are removed with zero counts in both group(s). 
+INFO  @ Sat, 26 Nov 2022 12:33:27: Use qnorm to reversely calculate sgRNA scores ... 
+DEBUG @ Sat, 26 Nov 2022 12:33:30: lower test FDR cutoff: 0.8950206234887961 
+DEBUG @ Sat, 26 Nov 2022 12:33:30: higher test FDR cutoff: 0.018257282871513725 
+INFO  @ Sat, 26 Nov 2022 12:33:31: Running command: RRA -i ipn1L.plow.txt -o ipn1L.gene.low.txt -p 0.5 --control broadgpp-brunello-controls.txt --skip-gene NA --skip-gene na  
+INFO  @ Sat, 26 Nov 2022 12:33:40: Command message: 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Welcome to RRA v 0.5.9. 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   1001 control sequences loaded. 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Skipping gene NA for permutation ... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Skipping gene na for permutation ... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Reading input file... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Summary: 77339 sgRNAs, 19113 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Computing lo-values for each group... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Skipping gene Non-Targeting-Control for permutation ... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Warning: sgRNA  not found in the ranked list.  
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Warning: sgRNA Non-Targeting-Control_76789_CCGTCTCCGCATCGTCTTTT not found in the ranked list.  
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Warning: sgRNA Non-Targeting-Control_76812_CCTTGGCGAGACGGAGGTAC not found in the ranked list.  
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Warning: sgRNA Non-Targeting-Control_76960_CTTTTCAGCTGAGACGTACG not found in the ranked list.  
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Computing false discovery rate... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Total # control sgRNAs: 997 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Permuting genes with 1 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Permuting genes with 2 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Permuting genes with 3 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Permuting genes with 4 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Permuting genes with 8 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Number of genes under FDR adjustment: 19113 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Saving to output file... 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   Suppressing the output of gene Non-Targeting-Control since it is negative ontrol genes. 
+INFO  @ Sat, 26 Nov 2022 12:33:40:   RRA completed. 
+INFO  @ Sat, 26 Nov 2022 12:33:40:    
+INFO  @ Sat, 26 Nov 2022 12:33:40: End command message. 
+INFO  @ Sat, 26 Nov 2022 12:33:40: Running command: RRA -i ipn1L.phigh.txt -o ipn1L.gene.high.txt -p 0.018257282871513725 --control broadgpp-brunello-controls.txt --skip-gene NA --skip-gene na  
+INFO  @ Sat, 26 Nov 2022 12:33:48: Command message: 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Welcome to RRA v 0.5.9. 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   1001 control sequences loaded. 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Skipping gene NA for permutation ... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Skipping gene na for permutation ... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Reading input file... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Summary: 77339 sgRNAs, 19113 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Computing lo-values for each group... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Skipping gene Non-Targeting-Control for permutation ... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Warning: sgRNA  not found in the ranked list.  
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Warning: sgRNA Non-Targeting-Control_76789_CCGTCTCCGCATCGTCTTTT not found in the ranked list.  
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Warning: sgRNA Non-Targeting-Control_76812_CCTTGGCGAGACGGAGGTAC not found in the ranked list.  
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Warning: sgRNA Non-Targeting-Control_76960_CTTTTCAGCTGAGACGTACG not found in the ranked list.  
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Computing false discovery rate... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Total # control sgRNAs: 997 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Permuting genes with 1 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Permuting genes with 2 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Permuting genes with 3 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Permuting genes with 4 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Permuting genes with 8 sgRNAs... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Number of genes under FDR adjustment: 19113 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Saving to output file... 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   Suppressing the output of gene Non-Targeting-Control since it is negative ontrol genes. 
+INFO  @ Sat, 26 Nov 2022 12:33:48:   RRA completed. 
+INFO  @ Sat, 26 Nov 2022 12:33:48:    
+INFO  @ Sat, 26 Nov 2022 12:33:48: End command message. 
+DEBUG @ Sat, 26 Nov 2022 12:33:48: Sorting the merged items by negative selection... 
+INFO  @ Sat, 26 Nov 2022 12:33:48: Loading top 10 genes from ipn1L.gene.low.txt: CARS,SBDS,VRK1,SACM1L,IARS2,RPS20,TRRAP,PGAM1,CDC42,TTI1 
+DEBUG @ Sat, 26 Nov 2022 12:33:48: Column index:3 
+INFO  @ Sat, 26 Nov 2022 12:33:49: Loading top 10 genes from ipn1L.gene.high.txt: TSC2,KEAP1,TSC1,NF2,TAOK1,PTEN,FLCN,CAND1,BCR,PPM1F 
+DEBUG @ Sat, 26 Nov 2022 12:33:49: Column index:9 
+INFO  @ Sat, 26 Nov 2022 12:33:50: Running command: cd ./; Rscript ipn1L.R 
+INFO  @ Sat, 26 Nov 2022 12:33:52: Command message: 
+INFO  @ Sat, 26 Nov 2022 12:33:52:   null device  
+INFO  @ Sat, 26 Nov 2022 12:33:52:             1  
+INFO  @ Sat, 26 Nov 2022 12:33:52:   Writing to file ipn1L_summary.tex 
+INFO  @ Sat, 26 Nov 2022 12:33:52:   Processing code chunks with options ... 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    1 : keep.source term verbatim (label = funcdef, ipn1L_summary.Rnw:27) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    2 : keep.source term tex (label = tab1, ipn1L_summary.Rnw:37) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    3 : keep.source term verbatim (ipn1L_summary.Rnw:77) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    4 : keep.source term verbatim pdf  (ipn1L_summary.Rnw:83) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    5 : keep.source term verbatim pdf  (ipn1L_summary.Rnw:201) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    6 : keep.source term verbatim pdf  (ipn1L_summary.Rnw:345) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    7 : keep.source term verbatim pdf  (ipn1L_summary.Rnw:489) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    8 : keep.source term verbatim (ipn1L_summary.Rnw:567) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    9 : keep.source term verbatim pdf  (ipn1L_summary.Rnw:573) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:   10 : keep.source term verbatim pdf  (ipn1L_summary.Rnw:691) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:   11 : keep.source term verbatim pdf  (ipn1L_summary.Rnw:835) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:   12 : keep.source term verbatim pdf  (ipn1L_summary.Rnw:979) 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    
+INFO  @ Sat, 26 Nov 2022 12:33:52:   You can now run (pdf)latex on ‘ipn1L_summary.tex’ 
+INFO  @ Sat, 26 Nov 2022 12:33:52:   Error in texi2dvi("ipn1L_summary.tex", pdf = TRUE) :  
+INFO  @ Sat, 26 Nov 2022 12:33:52:     pdflatex is not available 
+INFO  @ Sat, 26 Nov 2022 12:33:52:   Execution halted 
+INFO  @ Sat, 26 Nov 2022 12:33:52:    
+INFO  @ Sat, 26 Nov 2022 12:33:52: End command message. 

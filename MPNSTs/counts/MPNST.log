@@ -1,0 +1,593 @@
+INFO  @ Fri, 27 Jan 2023 16:40:33: Parameters: /home/largaesp/stehn007/.conda/envs/mageckenv/bin/mageck count -l /home/largaesp/stehn007/synthetic_lethal/broadgpp-brunello-library-corrected.txt --fastq /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Final_R1_001.fastq.gz /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Initial_R1_001.fastq.gz /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Final_R1_001.fastq.gz /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Initial_R1_001.fastq.gz --control-sgrna /home/largaesp/stehn007/synthetic_lethal/broadgpp-brunello-controls.txt --sample-label ST88-14_Final,ST88-14_Initial,STS26T_Final,STS26T_Initial --norm-method median --pdf-report --keep-tmp -n MPNST 
+INFO  @ Fri, 27 Jan 2023 16:40:33: Welcome to MAGeCK v0.5.9.2. Command: count 
+INFO  @ Fri, 27 Jan 2023 16:40:33: Header line of the library file detected; skip the first line ... 
+INFO  @ Fri, 27 Jan 2023 16:40:33: Loading 77441 predefined sgRNAs. 
+WARNING @ Fri, 27 Jan 2023 16:40:33: There are 0 sgRNAs with duplicated sequences. 
+INFO  @ Fri, 27 Jan 2023 16:40:33: Parsing FASTQ file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Final_R1_001.fastq.gz... 
+INFO  @ Fri, 27 Jan 2023 16:40:33: Determining the trim-5 length of FASTQ file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Final_R1_001.fastq.gz... 
+INFO  @ Fri, 27 Jan 2023 16:40:33: Possible gRNA lengths:20 
+INFO  @ Fri, 27 Jan 2023 16:40:33: Processing 0M reads ... 
+INFO  @ Fri, 27 Jan 2023 16:40:38: Read length:151 
+INFO  @ Fri, 27 Jan 2023 16:40:38: Total tested reads: 100001, mapped: 74852(0.7485125148748513) 
+INFO  @ Fri, 27 Jan 2023 16:40:38: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 23	11301	0.15097792978143537 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 24	11281	0.15071073585208145 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 25	10995	0.14688986266232032 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 22	10955	0.14635547480361247 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 26	10949	0.14627531662480628 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 28	9960	0.1330625768182547 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 29	9104	0.1216266766419067 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 27	146	0.001950515684283653 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 21	71	0.0009485384492064341 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 30	49	0.0006546251269171164 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 20	11	0.0001469566611446588 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 34	4	5.343878587078502e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 31	4	5.343878587078502e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 38	3	4.007908940308876e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 32	3	4.007908940308876e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 16	3	4.007908940308876e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 17	2	2.671939293539251e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 19	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 35	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 49	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 15	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 10	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 37	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 72	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 14	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 18	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 12	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: 66	1	1.3359696467696254e-05 
+INFO  @ Fri, 27 Jan 2023 16:40:38: Auto determination of trim5 results: 23,24,25,22,26,28 
+INFO  @ Fri, 27 Jan 2023 16:40:38: Possible gRNA lengths:20 
+INFO  @ Fri, 27 Jan 2023 16:40:38: Processing 0M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:40:46: Processing 1M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:40:54: Processing 2M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:41:02: Processing 3M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:41:09: Processing 4M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:41:17: Processing 5M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:41:25: Processing 6M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:41:33: Processing 7M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:41:41: Processing 8M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:41:49: Processing 9M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:41:57: Processing 10M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:42:05: Processing 11M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:42:13: Processing 12M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:42:21: Processing 13M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:42:28: Processing 14M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:42:35: Processing 15M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:42:43: Processing 16M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:42:50: Processing 17M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:42:57: Processing 18M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:43:04: Processing 19M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:43:12: Processing 20M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:43:20: Processing 21M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:43:28: Processing 22M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:43:34: Processing 23M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:43:43: Processing 24M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:43:51: Processing 25M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:43:59: Processing 26M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:44:06: Processing 27M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:44:15: Processing 28M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:44:23: Processing 29M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:44:31: Processing 30M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:44:39: Processing 31M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:44:47: Processing 32M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:44:55: Processing 33M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:45:03: Processing 34M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:45:12: Processing 35M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:45:21: Processing 36M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:45:29: Processing 37M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:45:38: Processing 38M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:45:46: Processing 39M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:45:54: Processing 40M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:46:02: Processing 41M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:46:10: Processing 42M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:46:18: Processing 43M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:46:26: Processing 44M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:46:34: Processing 45M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:46:43: Processing 46M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:46:52: Processing 47M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:47:00: Processing 48M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:47:09: Processing 49M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:47:17: Processing 50M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:47:26: Processing 51M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:47:34: Processing 52M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:47:43: Processing 53M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:47:51: Processing 54M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:48:00: Processing 55M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:48:08: Processing 56M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:48:17: Processing 57M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:48:25: Processing 58M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:48:34: Processing 59M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:48:42: Processing 60M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:48:50: Processing 61M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:48:59: Processing 62M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:49:07: Processing 63M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:49:16: Processing 64M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:49:25: Processing 65M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:49:33: Processing 66M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:49:42: Processing 67M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:49:50: Processing 68M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:49:59: Processing 69M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:50:06: Processing 70M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:50:14: Processing 71M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:50:23: Processing 72M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:50:31: Processing 73M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:50:39: Processing 74M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:50:48: Processing 75M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:50:55: Processing 76M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:51:04: Processing 77M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:51:13: Processing 78M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:51:21: Processing 79M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:51:29: Processing 80M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:51:37: Processing 81M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:51:45: Processing 82M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:51:53: Processing 83M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:52:01: Processing 84M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:52:09: Processing 85M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:52:18: Processing 86M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:52:26: Processing 87M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:52:34: Processing 88M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:52:43: Processing 89M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:52:51: Processing 90M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:52:58: Processing 91M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:53:05: Processing 92M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:53:12: Processing 93M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:53:20: Processing 94M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:53:27: Processing 95M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:53:34: Processing 96M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:53:42: Processing 97M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:53:51: Processing 98M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:53:58: Processing 99M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:54:06: Processing 100M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:54:13: Processing 101M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:54:13: Total: 101027189. 
+INFO  @ Fri, 27 Jan 2023 16:54:13: Mapped: 66768599. 
+INFO  @ Fri, 27 Jan 2023 16:54:13: Parsing FASTQ file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Initial_R1_001.fastq.gz... 
+INFO  @ Fri, 27 Jan 2023 16:54:13: Determining the trim-5 length of FASTQ file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Initial_R1_001.fastq.gz... 
+INFO  @ Fri, 27 Jan 2023 16:54:13: Possible gRNA lengths:20 
+INFO  @ Fri, 27 Jan 2023 16:54:13: Processing 0M reads ... 
+INFO  @ Fri, 27 Jan 2023 16:54:17: Read length:151 
+INFO  @ Fri, 27 Jan 2023 16:54:17: Total tested reads: 100001, mapped: 78035(0.7803421965780343) 
+INFO  @ Fri, 27 Jan 2023 16:54:17: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 23	11705	0.14999679630934837 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 25	11630	0.14903568911385917 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 24	11619	0.14889472672518742 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 22	11211	0.14366630358172613 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 26	11196	0.1434740821426283 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 28	10599	0.13582366886653424 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 29	9745	0.12487986160056384 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 27	140	0.00179406676491318 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 21	95	0.001217402447619658 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 30	46	0.0005894790799000449 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 20	16	0.00020503620170436344 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 19	7	8.9703338245659e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 17	3	3.844428781956814e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 38	3	3.844428781956814e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 35	3	3.844428781956814e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 18	3	3.844428781956814e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 36	2	2.562952521304543e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 32	2	2.562952521304543e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 39	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 11	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 51	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 34	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 88	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 33	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 68	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 40	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 44	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: 50	1	1.2814762606522715e-05 
+INFO  @ Fri, 27 Jan 2023 16:54:17: Auto determination of trim5 results: 23,25,24,22,26,28 
+INFO  @ Fri, 27 Jan 2023 16:54:17: Possible gRNA lengths:20 
+INFO  @ Fri, 27 Jan 2023 16:54:17: Processing 0M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:54:24: Processing 1M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:54:31: Processing 2M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:54:39: Processing 3M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:54:48: Processing 4M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:54:55: Processing 5M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:55:02: Processing 6M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:55:11: Processing 7M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:55:19: Processing 8M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:55:27: Processing 9M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:55:36: Processing 10M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:55:44: Processing 11M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:55:52: Processing 12M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:56:00: Processing 13M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:56:09: Processing 14M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:56:18: Processing 15M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:56:26: Processing 16M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:56:35: Processing 17M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:56:43: Processing 18M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:56:51: Processing 19M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:56:59: Processing 20M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:57:08: Processing 21M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:57:16: Processing 22M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:57:24: Processing 23M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:57:32: Processing 24M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:57:40: Processing 25M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:57:49: Processing 26M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:57:57: Processing 27M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:58:06: Processing 28M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:58:14: Processing 29M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:58:23: Processing 30M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:58:32: Processing 31M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:58:40: Processing 32M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:58:49: Processing 33M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:58:58: Processing 34M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:59:07: Processing 35M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:59:16: Processing 36M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:59:25: Processing 37M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:59:34: Processing 38M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:59:42: Processing 39M reads .. 
+INFO  @ Fri, 27 Jan 2023 16:59:51: Processing 40M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:00:00: Processing 41M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:00:09: Processing 42M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:00:18: Processing 43M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:00:27: Processing 44M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:00:36: Processing 45M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:00:45: Processing 46M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:00:53: Processing 47M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:01:02: Processing 48M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:01:11: Processing 49M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:01:20: Processing 50M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:01:27: Processing 51M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:01:35: Processing 52M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:01:43: Processing 53M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:01:51: Processing 54M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:02:00: Processing 55M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:02:09: Processing 56M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:02:17: Processing 57M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:02:25: Processing 58M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:02:33: Processing 59M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:02:42: Processing 60M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:02:50: Processing 61M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:02:58: Processing 62M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:03:06: Processing 63M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:03:14: Processing 64M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:03:23: Processing 65M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:03:31: Processing 66M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:03:39: Processing 67M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:03:47: Processing 68M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:03:55: Processing 69M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:04:03: Processing 70M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:04:12: Processing 71M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:04:20: Processing 72M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:04:27: Processing 73M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:04:34: Processing 74M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:04:41: Processing 75M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:04:49: Processing 76M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:04:56: Processing 77M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:05:03: Processing 78M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:05:10: Processing 79M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:05:18: Processing 80M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:05:26: Processing 81M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:05:34: Processing 82M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:05:42: Processing 83M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:05:49: Processing 84M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:05:56: Processing 85M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:06:03: Processing 86M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:06:12: Processing 87M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:06:20: Processing 88M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:06:28: Processing 89M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:06:35: Processing 90M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:06:43: Processing 91M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:06:51: Processing 92M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:06:53: Total: 92161054. 
+INFO  @ Fri, 27 Jan 2023 17:06:53: Mapped: 63681524. 
+INFO  @ Fri, 27 Jan 2023 17:06:53: Parsing FASTQ file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Final_R1_001.fastq.gz... 
+INFO  @ Fri, 27 Jan 2023 17:06:53: Determining the trim-5 length of FASTQ file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Final_R1_001.fastq.gz... 
+INFO  @ Fri, 27 Jan 2023 17:06:53: Possible gRNA lengths:20 
+INFO  @ Fri, 27 Jan 2023 17:06:53: Processing 0M reads ... 
+INFO  @ Fri, 27 Jan 2023 17:06:57: Read length:151 
+INFO  @ Fri, 27 Jan 2023 17:06:57: Total tested reads: 100001, mapped: 75965(0.7596424035759642) 
+INFO  @ Fri, 27 Jan 2023 17:06:57: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 23	11612	0.15285986967682486 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 24	11189	0.14729151582965838 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 26	11101	0.14613308760613442 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 25	11076	0.1458039886789969 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 22	10839	0.14268413084973344 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 28	10260	0.135062199697229 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 29	9526	0.12539985519647207 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 27	156	0.0020535773053379845 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 21	105	0.0013822154939774896 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 30	43	0.0005660501546764958 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 20	9	0.00011847561376949911 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 16	6	7.898374251299941e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 19	4	5.26558283419996e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 15	4	5.26558283419996e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 31	4	5.26558283419996e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 12	3	3.9491871256499704e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 40	3	3.9491871256499704e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 66	3	3.9491871256499704e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 43	2	2.63279141709998e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 18	2	2.63279141709998e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 33	2	2.63279141709998e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 37	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 36	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 35	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 17	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 52	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 34	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 42	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 38	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 57	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 70	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 95	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 99	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 14	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 39	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 78	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: 32	1	1.31639570854999e-05 
+INFO  @ Fri, 27 Jan 2023 17:06:57: Auto determination of trim5 results: 23,24,26,25,22,28 
+INFO  @ Fri, 27 Jan 2023 17:06:57: Possible gRNA lengths:20 
+INFO  @ Fri, 27 Jan 2023 17:06:57: Processing 0M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:07:06: Processing 1M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:07:14: Processing 2M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:07:22: Processing 3M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:07:31: Processing 4M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:07:39: Processing 5M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:07:48: Processing 6M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:07:56: Processing 7M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:08:04: Processing 8M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:08:12: Processing 9M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:08:21: Processing 10M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:08:29: Processing 11M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:08:37: Processing 12M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:08:46: Processing 13M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:08:54: Processing 14M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:09:03: Processing 15M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:09:11: Processing 16M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:09:19: Processing 17M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:09:28: Processing 18M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:09:36: Processing 19M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:09:45: Processing 20M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:09:53: Processing 21M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:10:01: Processing 22M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:10:09: Processing 23M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:10:18: Processing 24M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:10:26: Processing 25M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:10:35: Processing 26M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:10:43: Processing 27M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:10:52: Processing 28M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:11:00: Processing 29M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:11:08: Processing 30M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:11:17: Processing 31M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:11:26: Processing 32M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:11:34: Processing 33M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:11:43: Processing 34M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:11:51: Processing 35M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:12:00: Processing 36M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:12:08: Processing 37M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:12:17: Processing 38M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:12:25: Processing 39M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:12:34: Processing 40M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:12:42: Processing 41M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:12:51: Processing 42M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:12:59: Processing 43M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:13:08: Processing 44M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:13:16: Processing 45M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:13:25: Processing 46M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:13:33: Processing 47M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:13:41: Processing 48M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:13:49: Processing 49M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:13:57: Processing 50M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:14:06: Processing 51M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:14:14: Processing 52M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:14:22: Processing 53M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:14:30: Processing 54M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:14:38: Processing 55M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:14:46: Processing 56M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:14:55: Processing 57M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:15:03: Processing 58M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:15:11: Processing 59M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:15:20: Processing 60M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:15:28: Processing 61M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:15:36: Processing 62M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:15:44: Processing 63M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:15:52: Processing 64M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:16:00: Processing 65M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:16:08: Processing 66M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:16:16: Processing 67M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:16:23: Processing 68M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:16:30: Processing 69M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:16:38: Processing 70M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:16:45: Processing 71M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:16:53: Processing 72M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:17:00: Processing 73M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:17:08: Processing 74M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:17:16: Processing 75M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:17:24: Processing 76M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:17:31: Processing 77M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:17:38: Processing 78M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:17:46: Processing 79M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:17:55: Processing 80M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:18:02: Processing 81M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:18:11: Processing 82M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:18:19: Processing 83M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:18:28: Processing 84M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:18:36: Processing 85M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:18:44: Processing 86M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:18:53: Processing 87M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:19:02: Processing 88M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:19:08: Total: 88796838. 
+INFO  @ Fri, 27 Jan 2023 17:19:08: Mapped: 59459295. 
+INFO  @ Fri, 27 Jan 2023 17:19:09: Parsing FASTQ file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Initial_R1_001.fastq.gz... 
+INFO  @ Fri, 27 Jan 2023 17:19:09: Determining the trim-5 length of FASTQ file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Initial_R1_001.fastq.gz... 
+INFO  @ Fri, 27 Jan 2023 17:19:09: Possible gRNA lengths:20 
+INFO  @ Fri, 27 Jan 2023 17:19:09: Processing 0M reads ... 
+INFO  @ Fri, 27 Jan 2023 17:19:13: Read length:151 
+INFO  @ Fri, 27 Jan 2023 17:19:13: Total tested reads: 100001, mapped: 68039(0.6803831961680383) 
+INFO  @ Fri, 27 Jan 2023 17:19:13: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 23	10225	0.15028145622363645 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 26	10209	0.15004629697673394 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 24	9997	0.14693043695527566 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 22	9906	0.14559296873851763 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 25	9834	0.1445347521274563 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 28	9076	0.13339408280544982 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 29	8476	0.12457561104660562 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 27	155	0.002278105204368083 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 21	78	0.001146401328649745 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 30	39	0.0005732006643248725 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 20	10	0.00014697452931406986 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 32	5	7.348726465703493e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 19	5	7.348726465703493e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 33	3	4.409235879422096e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 37	2	2.9394905862813973e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 31	2	2.9394905862813973e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 18	2	2.9394905862813973e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 34	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 76	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 73	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 17	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 71	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 39	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 15	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 94	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 14	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 61	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 57	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 67	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 100	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 40	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: 13	1	1.4697452931406987e-05 
+INFO  @ Fri, 27 Jan 2023 17:19:13: Auto determination of trim5 results: 23,26,24,22,25,28 
+INFO  @ Fri, 27 Jan 2023 17:19:13: Possible gRNA lengths:20 
+INFO  @ Fri, 27 Jan 2023 17:19:13: Processing 0M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:19:21: Processing 1M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:19:30: Processing 2M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:19:38: Processing 3M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:19:47: Processing 4M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:19:55: Processing 5M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:20:03: Processing 6M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:20:12: Processing 7M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:20:20: Processing 8M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:20:29: Processing 9M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:20:37: Processing 10M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:20:46: Processing 11M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:20:54: Processing 12M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:21:03: Processing 13M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:21:11: Processing 14M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:21:19: Processing 15M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:21:28: Processing 16M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:21:36: Processing 17M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:21:44: Processing 18M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:21:53: Processing 19M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:22:01: Processing 20M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:22:10: Processing 21M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:22:18: Processing 22M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:22:27: Processing 23M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:22:35: Processing 24M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:22:44: Processing 25M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:22:52: Processing 26M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:23:00: Processing 27M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:23:09: Processing 28M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:23:17: Processing 29M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:23:26: Processing 30M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:23:33: Processing 31M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:23:41: Processing 32M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:23:49: Processing 33M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:23:57: Processing 34M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:24:05: Processing 35M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:24:14: Processing 36M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:24:22: Processing 37M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:24:30: Processing 38M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:24:38: Processing 39M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:24:46: Processing 40M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:24:55: Processing 41M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:25:03: Processing 42M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:25:12: Processing 43M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:25:20: Processing 44M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:25:29: Processing 45M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:25:37: Processing 46M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:25:46: Processing 47M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:25:54: Processing 48M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:26:02: Processing 49M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:26:11: Processing 50M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:26:19: Processing 51M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:26:27: Processing 52M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:26:34: Processing 53M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:26:42: Processing 54M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:26:49: Processing 55M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:26:57: Processing 56M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:27:04: Processing 57M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:27:12: Processing 58M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:27:19: Processing 59M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:27:28: Processing 60M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:27:36: Processing 61M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:27:44: Processing 62M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:27:51: Processing 63M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:27:58: Processing 64M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:28:06: Processing 65M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:28:15: Processing 66M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:28:23: Processing 67M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:28:30: Processing 68M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:28:39: Processing 69M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:28:47: Processing 70M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:28:56: Processing 71M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:29:05: Processing 72M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:29:14: Processing 73M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:29:22: Processing 74M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:29:31: Processing 75M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:29:39: Processing 76M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:29:47: Processing 77M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:29:56: Processing 78M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:30:04: Processing 79M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:30:13: Processing 80M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:30:22: Processing 81M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:30:30: Processing 82M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:30:39: Processing 83M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:30:47: Processing 84M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:30:56: Processing 85M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:31:04: Processing 86M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:31:13: Processing 87M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:31:21: Processing 88M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:31:30: Processing 89M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:31:38: Processing 90M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:31:47: Processing 91M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:31:56: Processing 92M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:32:05: Processing 93M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:32:13: Processing 94M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:32:21: Processing 95M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:32:30: Processing 96M reads .. 
+INFO  @ Fri, 27 Jan 2023 17:32:35: Total: 96552141. 
+INFO  @ Fri, 27 Jan 2023 17:32:35: Mapped: 58218586. 
+DEBUG @ Fri, 27 Jan 2023 17:32:36: Initial (total) size factor: 0.9290594969650329 0.9740973064652159 1.043268356949069 1.0655016767325816 
+DEBUG @ Fri, 27 Jan 2023 17:32:36: Median factor: 0.9715006794919069 0.9578919907429253 1.0349954408293132 1.0426680593467081 
+INFO  @ Fri, 27 Jan 2023 17:32:36: Final size factor: 0.9715006794919069 0.9578919907429253 1.0349954408293132 1.0426680593467081 
+INFO  @ Fri, 27 Jan 2023 17:32:37: Summary of file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Final_R1_001.fastq.gz: 
+INFO  @ Fri, 27 Jan 2023 17:32:37: label	ST88-14_Final 
+INFO  @ Fri, 27 Jan 2023 17:32:37: reads	101027189 
+INFO  @ Fri, 27 Jan 2023 17:32:37: mappedreads	66768599 
+INFO  @ Fri, 27 Jan 2023 17:32:37: totalsgrnas	77441 
+INFO  @ Fri, 27 Jan 2023 17:32:37: zerosgrnas	320 
+INFO  @ Fri, 27 Jan 2023 17:32:37: giniindex	0.08865886242852394 
+INFO  @ Fri, 27 Jan 2023 17:32:37: Summary of file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Initial_R1_001.fastq.gz: 
+INFO  @ Fri, 27 Jan 2023 17:32:37: label	ST88-14_Initial 
+INFO  @ Fri, 27 Jan 2023 17:32:37: reads	92161054 
+INFO  @ Fri, 27 Jan 2023 17:32:37: mappedreads	63681524 
+INFO  @ Fri, 27 Jan 2023 17:32:37: totalsgrnas	77441 
+INFO  @ Fri, 27 Jan 2023 17:32:37: zerosgrnas	124 
+INFO  @ Fri, 27 Jan 2023 17:32:37: giniindex	0.05207420649645933 
+INFO  @ Fri, 27 Jan 2023 17:32:37: Summary of file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Final_R1_001.fastq.gz: 
+INFO  @ Fri, 27 Jan 2023 17:32:37: label	STS26T_Final 
+INFO  @ Fri, 27 Jan 2023 17:32:37: reads	88796838 
+INFO  @ Fri, 27 Jan 2023 17:32:37: mappedreads	59459295 
+INFO  @ Fri, 27 Jan 2023 17:32:37: totalsgrnas	77441 
+INFO  @ Fri, 27 Jan 2023 17:32:37: zerosgrnas	270 
+INFO  @ Fri, 27 Jan 2023 17:32:37: giniindex	0.07178453762447334 
+INFO  @ Fri, 27 Jan 2023 17:32:37: Summary of file /home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Initial_R1_001.fastq.gz: 
+INFO  @ Fri, 27 Jan 2023 17:32:37: label	STS26T_Initial 
+INFO  @ Fri, 27 Jan 2023 17:32:37: reads	96552141 
+INFO  @ Fri, 27 Jan 2023 17:32:37: mappedreads	58218586 
+INFO  @ Fri, 27 Jan 2023 17:32:37: totalsgrnas	77441 
+INFO  @ Fri, 27 Jan 2023 17:32:37: zerosgrnas	186 
+INFO  @ Fri, 27 Jan 2023 17:32:37: giniindex	0.05512217210234627 
+INFO  @ Fri, 27 Jan 2023 17:32:37: Loading Rnw template file: /home/largaesp/stehn007/.conda/envs/mageckenv/lib/python3.7/site-packages/mageck/fastq_template.Rnw. 
+DEBUG @ Fri, 27 Jan 2023 17:32:37: Setting up the visualization module... 
+INFO  @ Fri, 27 Jan 2023 17:32:37: Running command: cd ./; Rscript MPNST_countsummary.R 
+INFO  @ Fri, 27 Jan 2023 17:32:37: Command message: 
+INFO  @ Fri, 27 Jan 2023 17:32:37:   /bin/sh: Rscript: command not found 
+INFO  @ Fri, 27 Jan 2023 17:32:37:    
+INFO  @ Fri, 27 Jan 2023 17:32:37: End command message. 

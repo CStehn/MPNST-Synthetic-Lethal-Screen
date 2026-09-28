@@ -1,0 +1,17 @@
+sequence_ID,cell_line_name,pDNA_batch,days,replicate_ID
+ST8814_Final,ST88-14,batch1,18,ST88-14_batch1_ST8814_Final
+ST8814_Initial,pDNA,batch1,0,pDNA_batch1_ST8814_Initial
+STS26T_Final,STS-26T,batch2,18,STS-26T_batch2_STS26T_Final
+STS26T_Initial,pDNA,batch2,0,pDNA_batch2_STS26T_Initial
+D01_iHSC1L_C3_Initial,pDNA,batch4,0,pDNA_batch4_D01_iHSC1L_C3_Initial
+D02_iHSC1L_C3_Final,iHSC1L_C3,batch4,18,iHSC1L_C3_batch4_D02_iHSC1L_C3_Final
+E01_iHSC1L_F12_Initial,pDNA,batch5,0,pDNA_batch5_E01_iHSC1L_F12_Initial
+E02_iHSC1L_F12_Final,iHSC1L_F12,batch5,18,iHSC1L_F12_batch5_E02_iHSC1L_F12_Final
+E11_S462_E9_Initial,pDNA,batch6,0,pDNA_batch6_E11_S462_E9_Initial
+E12_S462_E9_Final,S462,batch6,18,S462_batch6_E12_S462_E9_Final
+ipn1L.initial,pDNA,batch7,0,pDNA_batch7_ipn1L.initial
+ipn1L.final,iPN1L,batch7,18,iPN1L_batch7_ipn1L.final
+ipn2J.initial,pDNA,batch8,0,pDNA_batch8_ipn2J.initial
+ipn2J.final,iPN2J,batch8,18,iPN2J_batch8_ipn2J.final
+ipn3D.initial,pDNA,batch9,0,pDNA_batch9_ipn3D.initial
+ipn3D.final,iPN3D,batch9,18,iPN3D_batch9_ipn3D.final

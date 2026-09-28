@@ -1,0 +1,5 @@
+File	Label	Reads	Mapped	Percentage	TotalsgRNAs	Zerocounts	GiniIndex	NegSelQC	NegSelQCPval	NegSelQCPvalPermutation	NegSelQCPvalPermutationFDR	NegSelQCGene
+/home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Final_R1_001.fastq.gz	ST88-14_Final	101027189	66768599	0.6609	77441	320	0.08866	0	1	1	1	0.0
+/home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/ST88-14_Initial_R1_001.fastq.gz	ST88-14_Initial	92161054	63681524	0.691	77441	124	0.05207	0	1	1	1	0.0
+/home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Final_R1_001.fastq.gz	STS26T_Final	88796838	59459295	0.6696	77441	270	0.07178	0	1	1	1	0.0
+/home/largaesp/stehn007/synthetic_lethal/MPNSTs/fastq/STS26T_Initial_R1_001.fastq.gz	STS26T_Initial	96552141	58218586	0.603	77441	186	0.05512	0	1	1	1	0.0

@@ -1,0 +1,46 @@
+sequence_ID	cell_line_name	pDNA_batch	days
+ST8814_Final	ST88-14	batch1	18
+ST8814_Initial	pDNA	batch1	0
+STS26T_Final	STS-26T	batch2	18
+STS26T_Initial	pDNA	batch2	0
+D01_iHSC1L_C3_Initial	pDNA	batch4	0
+D02_iHSC1L_C3_Final	iHSC1L_C3	batch4	18
+E01_iHSC1L_F12_Initial	pDNA	batch5	0
+E02_iHSC1L_F12_Final	iHSC1L_F12	batch5	18
+E11_S462_E9_Initial	pDNA	batch6	0
+E12_S462_E9_Final	S462	batch6	18
+ipn1L.initial	pDNA	batch7	0
+ipn1L.final	iPN1L	batch7	18
+ipn2J.initial	pDNA	batch8	0
+ipn2J.final	iPN2J	batch8	18
+ipn3D.initial	pDNA	batch9	0
+ipn3D.final	iPN3D	batch9	18
+PRF0_11_UNS_BR-13	cell1	batch13	21
+PRF0_17_UNS_BR-13	cell2	batch13	21
+PRF-1_6_UNS_BR-13	cell3	batch13	21
+PRF-1_16_UNS_BR-13	cell4	batch13	21
+CTRL_R1_R2_BR-13	cell5	batch13	21
+CTRL_R3_1_BR-13	cell6	batch13	21
+CTRL_R4_BR-13	cell7	batch13	21
+Meljuso-Control guide-Dropout-RepA_BR-15	cell8	batch15	21
+Meljuso-Control guide-Dropout-RepB_BR-15	cell9	batch15	21
+Meljuso-Control guide-A-1331852-RepA_BR-15	cell10	batch15	21
+Meljuso-Control guide-A-1331852-RepB_BR-15	cell11	batch15	21
+Meljuso-Control guide-S63845-RepA_BR-15	cell12	batch15	21
+Meljuso-Control guide-S63845-RepB_BR-15	cell13	batch15	21
+OVCAR8-Control guide-Dropout-RepA_BR-15	cell14	batch15	21
+OVCAR8-Control guide-Dropout-RepB_BR-15	cell15	batch15	21
+OVCAR8-Control guide-A-1331852-RepA_BR-15	cell16	batch15	21
+OVCAR8-Control guide-A-1331852-RepB_BR-15	cell17	batch15	21
+OVCAR8-Control guide-S63845-RepA_BR-15	cell18	batch15	21
+OVCAR8-Control guide-S63845-RepB_BR-15	cell19	batch15	21
+OVCAR8-Control guide-Olaparib-RepA_BR-15	cell20	batch15	21
+OVCAR8-Control guide-Olaparib-RepB_BR-15	cell21	batch15	21
+A375-Control guide-Dropout-RepA_BR-15	cell22	batch15	21
+A375-Control guide-Dropout-RepB_BR-15	cell23	batch15	21
+A375-Control guide-Olaparib-RepA_BR-15	cell24	batch15	21
+A375-Control guide-Olaparib-RepB_BR-15	cell25	batch15	21
+HAP1-Parental-Talazoparib-Rep A_BR-15	cell26	batch15	21
+HAP1-Parental-Talazoparib-Rep B_BR-15	cell27	batch15	21
+pDNA_batch_BR-13	pDNA	batch13	0
+pDNA_batch_BR-15	pDNA	batch15	0

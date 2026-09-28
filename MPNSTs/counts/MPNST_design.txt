@@ -1,0 +1,5 @@
+Samples	baseline	ST8814_final	STS26T_final
+ST8814_Final	1	1	0
+ST8814_Initial	1	0	0
+STS26T_Final	1	0	1
+STS26T_Initial	1	0	0

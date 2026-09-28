@@ -1,0 +1,89 @@
+INFO  @ Mon, 30 Jan 2023 10:50:08: Parameters: /home/largaesp/stehn007/.conda/envs/mageckenv/bin/mageck test -k counts/MPNST.count.txt -t ST88-14_Final -c ST88-14_Initial -n ST88-14 --control-sgrna ../broadgpp-brunello-controls.txt 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Welcome to MAGeCK v0.5.9.2. Command: test 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Loading count table from counts/MPNST.count.txt  
+INFO  @ Mon, 30 Jan 2023 10:50:08: Processing 1 lines.. 
+DEBUG @ Mon, 30 Jan 2023 10:50:08: Parsing error in line 1 (usually the header line). Skip this line. 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Loaded 77441 records. 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Loading R template file: /home/largaesp/stehn007/.conda/envs/mageckenv/lib/python3.7/site-packages/mageck/plot_template.RTemplate. 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Loading R template file: /home/largaesp/stehn007/.conda/envs/mageckenv/lib/python3.7/site-packages/mageck/plot_template_indvgene.RTemplate. 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Loading Rnw template file: /home/largaesp/stehn007/.conda/envs/mageckenv/lib/python3.7/site-packages/mageck/plot_template.Rnw. 
+DEBUG @ Mon, 30 Jan 2023 10:50:08: Setting up the visualization module... 
+DEBUG @ Mon, 30 Jan 2023 10:50:08: Given sample labels: ST88-14_Final 
+DEBUG @ Mon, 30 Jan 2023 10:50:08: Converted index: 0 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Treatment samples:ST88-14_Final 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Treatment sample index:0 
+DEBUG @ Mon, 30 Jan 2023 10:50:08: Given sample labels: ST88-14_Initial 
+DEBUG @ Mon, 30 Jan 2023 10:50:08: Converted index: 1 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Control samples:ST88-14_Initial 
+INFO  @ Mon, 30 Jan 2023 10:50:08: Control sample index:1 
+DEBUG @ Mon, 30 Jan 2023 10:50:08: Initial (total) size factor: 1.0242383882018904 0.976882284140783 
+DEBUG @ Mon, 30 Jan 2023 10:50:09: Median factor: 0.9959312771665367 1.0076073922379845 
+INFO  @ Mon, 30 Jan 2023 10:50:09: Final size factor: 0.9959312771665367 1.0076073922379845 
+INFO  @ Mon, 30 Jan 2023 10:50:10: Detecting outliers from variance estimation.. Avg read count:[708.6239095033891], Var: [309842.9917927734] 
+INFO  @ Mon, 30 Jan 2023 10:50:10: Skipping 296 sgRNAs from variance calculation because of their extreme high counts (> 4* STD (mean counts) ). 
+DEBUG @ Mon, 30 Jan 2023 10:50:10: Adjusted model: 1.6211404786327606	0 
+INFO  @ Mon, 30 Jan 2023 10:50:11: Before RRA, 118 sgRNAs are removed with zero counts in both group(s). 
+INFO  @ Mon, 30 Jan 2023 10:50:11: Use qnorm to reversely calculate sgRNA scores ... 
+DEBUG @ Mon, 30 Jan 2023 10:50:13: lower test FDR cutoff: 0.350167479275248 
+DEBUG @ Mon, 30 Jan 2023 10:50:14: higher test FDR cutoff: 0.3569313140980045 
+INFO  @ Mon, 30 Jan 2023 10:50:14: Running command: RRA -i ST88-14.plow.txt -o ST88-14.gene.low.txt -p 0.350167479275248 --control ../broadgpp-brunello-controls.txt --skip-gene NA --skip-gene na  
+INFO  @ Mon, 30 Jan 2023 10:50:22: Command message: 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Welcome to RRA v 0.5.9. 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   1001 control sequences loaded. 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Skipping gene NA for permutation ... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Skipping gene na for permutation ... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Reading input file... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Summary: 77323 sgRNAs, 19113 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Computing lo-values for each group... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Skipping gene Non-Targeting-Control for permutation ... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Warning: sgRNA  not found in the ranked list.  
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Warning: sgRNA Non-Targeting-Control_76789_CCGTCTCCGCATCGTCTTTT not found in the ranked list.  
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Warning: sgRNA Non-Targeting-Control_76960_CTTTTCAGCTGAGACGTACG not found in the ranked list.  
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Computing false discovery rate... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Total # control sgRNAs: 998 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Permuting genes with 1 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Permuting genes with 2 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Permuting genes with 3 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Permuting genes with 4 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Permuting genes with 8 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Number of genes under FDR adjustment: 19113 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Saving to output file... 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   Suppressing the output of gene Non-Targeting-Control since it is negative ontrol genes. 
+INFO  @ Mon, 30 Jan 2023 10:50:22:   RRA completed. 
+INFO  @ Mon, 30 Jan 2023 10:50:22:    
+INFO  @ Mon, 30 Jan 2023 10:50:22: End command message. 
+INFO  @ Mon, 30 Jan 2023 10:50:22: Running command: RRA -i ST88-14.phigh.txt -o ST88-14.gene.high.txt -p 0.3569313140980045 --control ../broadgpp-brunello-controls.txt --skip-gene NA --skip-gene na  
+INFO  @ Mon, 30 Jan 2023 10:50:42: Command message: 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Welcome to RRA v 0.5.9. 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   1001 control sequences loaded. 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Skipping gene NA for permutation ... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Skipping gene na for permutation ... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Reading input file... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Summary: 77323 sgRNAs, 19113 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Computing lo-values for each group... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Skipping gene Non-Targeting-Control for permutation ... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Warning: sgRNA  not found in the ranked list.  
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Warning: sgRNA Non-Targeting-Control_76789_CCGTCTCCGCATCGTCTTTT not found in the ranked list.  
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Warning: sgRNA Non-Targeting-Control_76960_CTTTTCAGCTGAGACGTACG not found in the ranked list.  
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Computing false discovery rate... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Total # control sgRNAs: 998 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Permuting genes with 1 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Permuting genes with 2 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Permuting genes with 3 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Permuting genes with 4 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Permuting genes with 8 sgRNAs... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Number of genes under FDR adjustment: 19113 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Saving to output file... 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   Suppressing the output of gene Non-Targeting-Control since it is negative ontrol genes. 
+INFO  @ Mon, 30 Jan 2023 10:50:42:   RRA completed. 
+INFO  @ Mon, 30 Jan 2023 10:50:42:    
+INFO  @ Mon, 30 Jan 2023 10:50:42: End command message. 
+DEBUG @ Mon, 30 Jan 2023 10:50:42: Sorting the merged items by negative selection... 
+INFO  @ Mon, 30 Jan 2023 10:50:42: Loading top 10 genes from ST88-14.gene.low.txt: TPI1,BUB3,DPH3,DNAJC11,RPS20,ANAPC11,KPNB1,DDX54,RPL17-C18orf32,C14orf80 
+DEBUG @ Mon, 30 Jan 2023 10:50:42: Column index:3 
+INFO  @ Mon, 30 Jan 2023 10:50:43: Loading top 10 genes from ST88-14.gene.high.txt: RAP2B,KEAP1,NRP1,PTEN,PLXNA1,L3MBTL3,SMCHD1,USP28,TP53,KDM6A 
+DEBUG @ Mon, 30 Jan 2023 10:50:43: Column index:9 
+INFO  @ Mon, 30 Jan 2023 10:50:44: Running command: rm ST88-14.plow.txt 
+INFO  @ Mon, 30 Jan 2023 10:50:44: Running command: rm ST88-14.phigh.txt 
+INFO  @ Mon, 30 Jan 2023 10:50:44: Running command: rm ST88-14.gene.low.txt 
+INFO  @ Mon, 30 Jan 2023 10:50:44: Running command: rm ST88-14.gene.high.txt 

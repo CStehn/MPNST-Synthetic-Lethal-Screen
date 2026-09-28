@@ -1,0 +1,36 @@
+replicate_ID,library,growth_rate
+S462_batch6_E12_S462_E9_Final,syn_lethal,1.072107723486947
+ST88-14_batch1_ST8814_Final,syn_lethal,1.0280371974645603
+STS-26T_batch2_STS26T_Final,syn_lethal,0.8069662095194358
+cell10_batch15_Meljuso-Control guide-A-1331852-RepA_BR-15,syn_lethal,1.1135109823487623
+cell11_batch15_Meljuso-Control guide-A-1331852-RepB_BR-15,syn_lethal,1.1370543151583947
+cell12_batch15_Meljuso-Control guide-S63845-RepA_BR-15,syn_lethal,1.1367714283561028
+cell13_batch15_Meljuso-Control guide-S63845-RepB_BR-15,syn_lethal,1.1291385770911515
+cell14_batch15_OVCAR8-Control guide-Dropout-RepA_BR-15,syn_lethal,0.9993900713591174
+cell15_batch15_OVCAR8-Control guide-Dropout-RepB_BR-15,syn_lethal,0.972396176069848
+cell16_batch15_OVCAR8-Control guide-A-1331852-RepA_BR-15,syn_lethal,0.990326308902976
+cell17_batch15_OVCAR8-Control guide-A-1331852-RepB_BR-15,syn_lethal,1.0353957220766274
+cell18_batch15_OVCAR8-Control guide-S63845-RepA_BR-15,syn_lethal,0.9692529418568954
+cell19_batch15_OVCAR8-Control guide-S63845-RepB_BR-15,syn_lethal,0.9746494659586113
+cell1_batch13_PRF0_11_UNS_BR-13,syn_lethal,1.1772435148837468
+cell20_batch15_OVCAR8-Control guide-Olaparib-RepA_BR-15,syn_lethal,1.1914731989111622
+cell21_batch15_OVCAR8-Control guide-Olaparib-RepB_BR-15,syn_lethal,1.2070983053868143
+cell22_batch15_A375-Control guide-Dropout-RepA_BR-15,syn_lethal,1.2286023827825912
+cell23_batch15_A375-Control guide-Dropout-RepB_BR-15,syn_lethal,1.2429951477624912
+cell24_batch15_A375-Control guide-Olaparib-RepA_BR-15,syn_lethal,1.1657596760433173
+cell25_batch15_A375-Control guide-Olaparib-RepB_BR-15,syn_lethal,1.1495422581031869
+cell26_batch15_HAP1-Parental-Talazoparib-Rep A_BR-15,syn_lethal,1.16038151920022
+cell27_batch15_HAP1-Parental-Talazoparib-Rep B_BR-15,syn_lethal,1.180141888739552
+cell2_batch13_PRF0_17_UNS_BR-13,syn_lethal,1.086741467353648
+cell3_batch13_PRF-1_6_UNS_BR-13,syn_lethal,0.8880794433571843
+cell4_batch13_PRF-1_16_UNS_BR-13,syn_lethal,0.9719029885575406
+cell5_batch13_CTRL_R1_R2_BR-13,syn_lethal,0.9171190228060396
+cell6_batch13_CTRL_R3_1_BR-13,syn_lethal,1.0019875683639916
+cell7_batch13_CTRL_R4_BR-13,syn_lethal,1.0073747772312034
+cell8_batch15_Meljuso-Control guide-Dropout-RepA_BR-15,syn_lethal,1.1270206972083205
+cell9_batch15_Meljuso-Control guide-Dropout-RepB_BR-15,syn_lethal,1.1242191497006737
+iHSC1L_C3_batch4_D02_iHSC1L_C3_Final,syn_lethal,0.4162885278595899
+iHSC1L_F12_batch5_E02_iHSC1L_F12_Final,syn_lethal,0.468318555999529
+iPN1L_batch7_ipn1L.final,syn_lethal,0.41653864887511594
+iPN2J_batch8_ipn2J.final,syn_lethal,0.4490318053121816
+iPN3D_batch9_ipn3D.final,syn_lethal,1.057142335912469

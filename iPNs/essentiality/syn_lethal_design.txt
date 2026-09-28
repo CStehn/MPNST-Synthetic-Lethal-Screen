@@ -1,0 +1,10 @@
+Samples	baseline	ipn1L_final	ipn1L_middle	ipn2J_final	ipn2J_middle	ipn3D_final	ipn3D_middle
+ipn1L.initial	1	0	0	0	0	0	0
+ipn1L.middle	1	0	1	0	0	0	0
+ipn1L.final	1	1	0	0	0	0	0
+ipn2J.initial	1	0	0	0	0	0	0
+ipn2J.middle	1	0	0	0	1	0	0
+ipn2J.final	1	0	0	1	0	0	0
+ipn3D.initial	1	0	0	0	0	0	0
+ipn3D.middle	1	0	0	0	0	0	1
+ipn3D.final	1	0	0	0	0	1	0

@@ -1,0 +1,12 @@
+# Sequencing data (exceed GitHub 100 MB limit; total ~43 GB)
+run3/
+run3redux/
+iPNs/fastq/
+MPNSTs/fastq/
+
+# Chronos model HDF5 artifacts
+*.hdf5
+
+# Slurm log templates
+*.err
+*.out

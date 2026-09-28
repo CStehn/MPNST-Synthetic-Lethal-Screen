@@ -1,0 +1,5 @@
+Samples	baseline	ST88-14	STS26T
+ST88-14.F	1	1	0
+ST88-14.I	1	0	0
+STS26T.F	1	0	1
+STS26T.I	1	0	0
